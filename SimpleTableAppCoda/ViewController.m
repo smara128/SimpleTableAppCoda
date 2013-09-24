@@ -20,7 +20,9 @@
 
 @implementation ViewController
 
-
+-(void)toTestBranchs{
+    
+}
 
 - (void)viewDidLoad
 {
