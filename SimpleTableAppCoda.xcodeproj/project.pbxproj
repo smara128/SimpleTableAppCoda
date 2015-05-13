@@ -38,6 +38,7 @@
 		8CC43AD917EAAC9C00CFFBE0 /* green_tea.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8CC43AC917EAAC9C00CFFBE0 /* green_tea.jpg */; };
 		8CC43ADA17EAAC9C00CFFBE0 /* ham_and_egg_sandwich.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8CC43ACA17EAAC9C00CFFBE0 /* ham_and_egg_sandwich.jpg */; };
 		8CC43ADB17EAAC9C00CFFBE0 /* creme_brelee.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8CC43ACB17EAAC9C00CFFBE0 /* creme_brelee.jpg */; };
+		8CCC264D17FF526C005959C6 /* Recipe.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CCC264C17FF526C005959C6 /* Recipe.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -78,6 +79,8 @@
 		8CC43AC917EAAC9C00CFFBE0 /* green_tea.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = green_tea.jpg; sourceTree = "<group>"; };
 		8CC43ACA17EAAC9C00CFFBE0 /* ham_and_egg_sandwich.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ham_and_egg_sandwich.jpg; sourceTree = "<group>"; };
 		8CC43ACB17EAAC9C00CFFBE0 /* creme_brelee.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = creme_brelee.jpg; sourceTree = "<group>"; };
+		8CCC264B17FF526C005959C6 /* Recipe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Recipe.h; sourceTree = "<group>"; };
+		8CCC264C17FF526C005959C6 /* Recipe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Recipe.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,14 +127,14 @@
 		8CC43A9B17EA913700CFFBE0 /* SimpleTableAppCoda */ = {
 			isa = PBXGroup;
 			children = (
-				8CC43AA417EA913700CFFBE0 /* AppDelegate.h */,
-				8CC43AA517EA913700CFFBE0 /* AppDelegate.m */,
 				8CC43AAD17EA913700CFFBE0 /* ViewController.h */,
 				8CC43AAE17EA913700CFFBE0 /* ViewController.m */,
 				8CC43AB017EA913700CFFBE0 /* ViewController.xib */,
 				8CB2BADD17EB63000070F58E /* SimpleTableCell.xib */,
 				8CB2BAE017EB67330070F58E /* SimpleTableCell.h */,
 				8CB2BAE117EB67330070F58E /* SimpleTableCell.m */,
+				8CCC264B17FF526C005959C6 /* Recipe.h */,
+				8CCC264C17FF526C005959C6 /* Recipe.m */,
 				8CC43A9C17EA913700CFFBE0 /* Supporting Files */,
 			);
 			path = SimpleTableAppCoda;
@@ -140,6 +143,8 @@
 		8CC43A9C17EA913700CFFBE0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8CC43AA417EA913700CFFBE0 /* AppDelegate.h */,
+				8CC43AA517EA913700CFFBE0 /* AppDelegate.m */,
 				8CB2BAF117EC09590070F58E /* recipes.plist */,
 				8CC43ABC17EAAC9C00CFFBE0 /* hamburger.jpg */,
 				8CC43ABD17EAAC9C00CFFBE0 /* ham_and_cheese_panini.jpg */,
@@ -258,6 +263,7 @@
 				8CC43AA617EA913700CFFBE0 /* AppDelegate.m in Sources */,
 				8CC43AAF17EA913700CFFBE0 /* ViewController.m in Sources */,
 				8CB2BAE217EB67330070F58E /* SimpleTableCell.m in Sources */,
+				8CCC264D17FF526C005959C6 /* Recipe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
